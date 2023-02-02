@@ -2,7 +2,7 @@
 int repeats = 96;
 int firstNumberInCycle = 5;
 
-for (int initialNumber = firstNumberInCycle; initialNumber <= repeats; initialNumber += ascendingCycle)
+for (int i = firstNumberInCycle; i <= repeats; i += ascendingCycle)
 {
-    Console.WriteLine(initialNumber);
+    Console.WriteLine(i);
 }
